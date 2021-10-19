@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:providence_shopping_list/core/class/view_model/home_screen_view_model.dart';
-import 'package:providence_shopping_list/ui/components/list_course_card.dart';
+
+import '../../core/view_model/home_screen_view_model.dart';
+import '../components/list_course_card.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
